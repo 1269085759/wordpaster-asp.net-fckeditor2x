@@ -1,0 +1,1 @@
+﻿FCKLang.NetPaster = "自动上传远程服务器图片";

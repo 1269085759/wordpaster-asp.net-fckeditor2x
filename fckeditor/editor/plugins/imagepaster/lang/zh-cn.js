@@ -1,0 +1,1 @@
+﻿FCKLang.ImagePaster = "粘贴来自剪帖板,文件,Word文档中的图片";

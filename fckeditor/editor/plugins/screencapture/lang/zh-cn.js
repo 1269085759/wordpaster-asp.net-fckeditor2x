@@ -1,0 +1,1 @@
+﻿FCKLang.ScreenCapture = "截屏";
