@@ -22,6 +22,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -317,6 +318,9 @@
     <Content Include="WordPaster\js\json2.min.js" />
     <Content Include="WordPaster\js\skygqbox.css" />
     <Content Include="WordPaster\js\skygqbox.js" />
+    <Content Include="WordPaster\js\w.app.js" />
+    <Content Include="WordPaster\js\w.edge.js" />
+    <Content Include="WordPaster\js\w.file.js" />
     <Content Include="WordPaster\js\WordPaster.js" />
     <Content Include="fckeditor\fckeditor.js" />
     <Content Include="index.html" />
