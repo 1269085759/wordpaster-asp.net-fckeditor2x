@@ -140,8 +140,7 @@ function WordPasterManager()
 	} //Firefox
 	else if (this.firefox)
     {
-        var ver = browserName.match(/firefox\/(\d+)/);
-        if (parseInt(ver[1]) >= 47)
+        if (!this.app.supportFF())//仍然支持npapi
         {
             this.app.postMessage = this.app.postMessageEdge;
             this.edge = true;
