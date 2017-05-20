@@ -27,8 +27,8 @@
 	<textarea id="txtContent" name="txtContent" cols="1" rows="1">WordPaster与FCKEditor2x整合示例</textarea>
 	<!--创建FCKEditor控件-->
 	<script language="javascript" type="text/javascript">
-		var pasterMgr = new PasterManager();
-		pasterMgr.Config["PostUrl"] = "http://localhost:10727/asp.net/upload.aspx";
+        var pasterMgr = new WordPasterManager();
+        pasterMgr.Config["PostUrl"] = "http://localhost:4317/asp.net/upload.aspx";
 		pasterMgr.Load();//加载控件
 
 		var oFCKeditor = new FCKeditor('txtContent');
@@ -41,7 +41,7 @@
 		//初始化编辑器
 		function FCKeditor_OnComplete(editorInstance)
 		{
-			pasterMgr.Init(editorInstance);
+		    pasterMgr.SetEditor(editorInstance);
 		}
 
 		$(document).ready(function ()
